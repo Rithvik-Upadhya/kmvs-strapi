@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_global_keywords",
+  "info": {
+    "displayName": "Keywords"
+  },
+  "options": {},
+  "attributes": {
+    "Keyword": {
+      "type": "string",
+      "regex": "^\\w+$",
+      "unique": false,
+      "required": false
+    }
+  }
+}

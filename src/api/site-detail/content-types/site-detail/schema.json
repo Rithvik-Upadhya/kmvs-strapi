@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_details",
+  "info": {
+    "singularName": "site-detail",
+    "pluralName": "site-details",
+    "displayName": "Site Details",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Kutch Mahila Vikas Sangathan",
+      "required": true,
+      "unique": false
+    },
+    "tagline": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "keywords": {
+      "displayName": "Keywords",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.keywords",
+      "max": 3,
+      "min": 3
+    },
+    "socials": {
+      "displayName": "social",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.social"
+    },
+    "contact": {
+      "displayName": "contact",
+      "type": "component",
+      "repeatable": false,
+      "component": "global.contact"
+    }
+  }
+}

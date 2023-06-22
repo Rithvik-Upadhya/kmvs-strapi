@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_global_socials",
+  "info": {
+    "displayName": "social",
+    "icon": "twitter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "YouTube",
+        "Instagram",
+        "Facebook",
+        "LinkedIn",
+        "Spotify",
+        "Twitter"
+      ]
+    },
+    "link": {
+      "type": "string",
+      "required": true,
+      "regex": "^(https?:\\/\\/.+\\..+|\\.?\\/|#)"
+    }
+  }
+}

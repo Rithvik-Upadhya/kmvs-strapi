@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_global_attachments",
+  "info": {
+    "displayName": "attachment",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "attachment": {
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

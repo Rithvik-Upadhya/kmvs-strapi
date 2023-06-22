@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_global_featureds",
+  "info": {
+    "displayName": "Featured",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 35,
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link": {
+      "type": "string",
+      "regex": "^(https?:\\/\\/.+\\..+|\\.?\\/|#)",
+      "required": true
+    }
+  }
+}

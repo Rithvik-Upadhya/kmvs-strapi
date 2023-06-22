@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_homepage_metrics",
+  "info": {
+    "displayName": "Metrics",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metric": {
+      "type": "string",
+      "maxLength": 10
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 50,
+      "required": true
+    }
+  }
+}
