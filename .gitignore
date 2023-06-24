@@ -109,6 +109,7 @@ coverage
 .env
 license.txt
 exports
+export_*
 *.cache
 dist
 build
