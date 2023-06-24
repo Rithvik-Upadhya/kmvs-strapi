@@ -30,6 +30,9 @@
         "preset": "custom"
       },
       "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
