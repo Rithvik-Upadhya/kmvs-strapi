@@ -11,8 +11,7 @@
       "type": "email"
     },
     "phone": {
-      "type": "string",
-      "regex": "/^\\+?[1-9][0-9]{7,14}$/"
+      "type": "string"
     },
     "address": {
       "type": "customField",
