@@ -14,8 +14,22 @@ module.exports = [
       contentSecurityPolicy: {
         useDefaults: true,
         directives: {
-          "frame-src": "*",
-          "img-src": ["*", "data:"],
+          "connect-src": ["'self'", "https:"],
+          "img-src": [
+            "'self'",
+            "data:",
+            "blob:",
+            "market-assets.strapi.io",
+            "res.cloudinary.com",
+          ],
+          "media-src": [
+            "'self'",
+            "data:",
+            "blob:",
+            "market-assets.strapi.io",
+            "res.cloudinary.com",
+          ],
+          upgradeInsecureRequests: null,
         },
       },
     },
