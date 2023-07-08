@@ -18,7 +18,9 @@
         "@strapi/strapi": "4.11.4",
         "patch-package": "^7.0.0",
         "pg": "^8.11.0",
-        "postinstall-postinstall": "^2.1.0"
+        "postinstall-postinstall": "^2.1.0",
+        "sqlite3": "^5.1.6",
+        "strapi-blurhash": "^1.1.1"
     },
     "author": {
         "name": "Rithvik Upadhya"
