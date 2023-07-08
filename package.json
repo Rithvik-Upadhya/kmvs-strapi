@@ -5,7 +5,7 @@
     "description": "A Strapi backend for kmvs.org.in",
     "scripts": {
         "dev": "strapi develop",
-        "start": "strapi start",
+        "start": "npm install && strapi start",
         "build": "strapi build",
         "strapi": "strapi",
         "patchadmin": "npx patch-package @strapi/admin",
