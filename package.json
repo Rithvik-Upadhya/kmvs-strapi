@@ -16,9 +16,11 @@
         "@strapi/plugin-graphql": "^4.11.4",
         "@strapi/plugin-i18n": "4.11.4",
         "@strapi/strapi": "4.11.4",
+        "glob": "^10.3.3",
         "patch-package": "^7.0.0",
         "pg": "^8.11.0",
-        "postinstall-postinstall": "^2.1.0"
+        "postinstall-postinstall": "^2.1.0",
+        "sharp": "^0.32.1"
     },
     "author": {
         "name": "Rithvik Upadhya"

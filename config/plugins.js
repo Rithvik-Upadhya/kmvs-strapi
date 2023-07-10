@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = ({ env }) => ({
   graphql: {
     config: {
       endpoint: "/graphql",
@@ -11,4 +11,14 @@ module.exports = {
       },
     },
   },
-};
+  upload: {
+    config: {
+      breakpoints: {
+        large: 1200,
+        medium: 800,
+        small: 400,
+        xsmall: 75,
+      },
+    },
+  },
+});
