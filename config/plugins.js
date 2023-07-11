@@ -11,14 +11,15 @@ module.exports = ({ env }) => ({
       },
     },
   },
-  upload: {
-    config: {
-      breakpoints: {
-        large: 1200,
-        medium: 800,
-        small: 400,
-        xsmall: 75,
-      },
-    },
-  },
+  //   uncomment to enable custom image sizes.
+  //   upload: {
+  //     config: {
+  //       breakpoints: {
+  //         large: 1200,
+  //         medium: 800,
+  //         small: 400,
+  //         xsmall: 40,
+  //       },
+  //     },
+  //   },
 });

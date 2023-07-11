@@ -1,3 +1,4 @@
+// run custom image processing pipeline
 const { optimizeImages, cleanupImages } = require("../processImages");
 
 module.exports = {
@@ -6,7 +7,7 @@ module.exports = {
       await optimizeImages();
     },
     options: {
-      rule: "25 5 * * *",
+      rule: "0 2 * * *",
       tz: "Asia/Kolkata",
     },
   },
