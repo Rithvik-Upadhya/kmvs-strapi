@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "submenu": {
+    "submenus": {
       "displayName": "Sub Menu",
       "type": "component",
       "repeatable": true,

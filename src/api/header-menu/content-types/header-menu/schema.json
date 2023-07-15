@@ -4,7 +4,8 @@
   "info": {
     "singularName": "header-menu",
     "pluralName": "header-menus",
-    "displayName": "Header Menu"
+    "displayName": "Header Menu",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,7 +16,7 @@
     }
   },
   "attributes": {
-    "submenu": {
+    "submenus": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {

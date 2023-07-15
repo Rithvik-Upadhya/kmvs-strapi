@@ -1,7 +1,7 @@
 {
   "collectionName": "components_global_sub_menus",
   "info": {
-    "displayName": "Sub Menu",
+    "displayName": "Sub Menus",
     "icon": "layer",
     "description": ""
   },
@@ -14,7 +14,7 @@
       "type": "string",
       "regex": "^(https?:\\/\\/.+\\..+|\\.?\\/|#)"
     },
-    "menuItem": {
+    "menuItems": {
       "displayName": "Menu Item",
       "type": "component",
       "repeatable": true,
