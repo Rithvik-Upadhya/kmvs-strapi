@@ -85,7 +85,7 @@ public/uploads/*
 !public/uploads/webp
 public/uploads/webp/*
 !public/uploads/webp/.gitkeep
-
+processImages.js
 
 ############################
 # Node.js
