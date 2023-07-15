@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_global_menu_items",
+  "info": {
+    "displayName": "Menu Item",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string",
+      "regex": "^(https?:\\/\\/.+\\..+|\\.?\\/|#)"
+    }
+  }
+}

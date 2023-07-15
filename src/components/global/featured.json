@@ -27,6 +27,9 @@
       "type": "string",
       "regex": "^(https?:\\/\\/.+\\..+|\\.?\\/|#)",
       "required": true
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

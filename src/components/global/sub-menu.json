@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_global_sub_menus",
+  "info": {
+    "displayName": "Sub Menu",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string",
+      "regex": "^(https?:\\/\\/.+\\..+|\\.?\\/|#)"
+    },
+    "menuItem": {
+      "displayName": "Menu Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "global.menu-item",
+      "max": 5
+    }
+  }
+}
