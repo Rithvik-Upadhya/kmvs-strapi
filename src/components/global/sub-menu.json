@@ -10,10 +10,6 @@
     "title": {
       "type": "string"
     },
-    "link": {
-      "type": "string",
-      "regex": "^(https?:\\/\\/.+\\..+|\\.?\\/|#)"
-    },
     "menuItems": {
       "displayName": "Menu Item",
       "type": "component",
