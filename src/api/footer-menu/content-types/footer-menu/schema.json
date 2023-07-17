@@ -26,7 +26,8 @@
         }
       },
       "component": "global.sub-menu",
-      "max": 1
+      "max": 2,
+      "min": 2
     }
   }
 }
