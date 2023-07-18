@@ -31,14 +31,6 @@
         "images"
       ]
     },
-    "keywords": {
-      "displayName": "Keywords",
-      "type": "component",
-      "repeatable": true,
-      "component": "global.keywords",
-      "max": 3,
-      "min": 3
-    },
     "socials": {
       "displayName": "social",
       "type": "component",
@@ -50,6 +42,14 @@
       "type": "component",
       "repeatable": false,
       "component": "global.contact"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
