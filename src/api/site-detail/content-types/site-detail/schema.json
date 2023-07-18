@@ -23,14 +23,6 @@
       "required": true,
       "maxLength": 100
     },
-    "favicon": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "socials": {
       "displayName": "social",
       "type": "component",
@@ -44,12 +36,12 @@
       "component": "global.contact"
     },
     "logo": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
