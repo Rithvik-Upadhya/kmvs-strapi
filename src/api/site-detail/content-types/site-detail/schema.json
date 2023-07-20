@@ -34,14 +34,6 @@
       "type": "component",
       "repeatable": false,
       "component": "global.contact"
-    },
-    "logo": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
     }
   }
 }
