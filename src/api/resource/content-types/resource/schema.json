@@ -80,11 +80,12 @@
       },
       "type": "enumeration",
       "enum": [
+        "Archive",
         "Publication",
-        "Tool",
-        "Archive"
+        "Research",
+        "Study"
       ],
-      "required": true
+      "required": false
     },
     "subcategory": {
       "pluginOptions": {
