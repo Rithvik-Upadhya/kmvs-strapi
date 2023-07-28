@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_resources_embeds",
+  "info": {
+    "displayName": "embed",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "youtube",
+        "spotify"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string",
+      "regex": "youtu\\.?be|spotify"
+    }
+  }
+}

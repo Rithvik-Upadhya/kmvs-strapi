@@ -32,8 +32,7 @@
           "localized": true
         }
       },
-      "component": "global.milestone",
-      "max": 6
+      "component": "global.milestone"
     },
     "metrics": {
       "type": "component",

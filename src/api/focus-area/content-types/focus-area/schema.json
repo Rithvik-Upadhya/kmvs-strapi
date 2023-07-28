@@ -70,6 +70,22 @@
       "relation": "manyToMany",
       "target": "api::resource.resource",
       "mappedBy": "focusAreas"
+    },
+    "SDGs": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "global.sd-gs"
+    },
+    "news_mentions": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::news-mention.news-mention",
+      "mappedBy": "focus_areas"
     }
   }
 }

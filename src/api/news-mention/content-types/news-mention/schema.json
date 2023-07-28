@@ -46,18 +46,6 @@
         }
       }
     },
-    "description": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "customField",
-      "options": {
-        "preset": "custom"
-      },
-      "customField": "plugin::ckeditor5.CKEditor"
-    },
     "link": {
       "pluginOptions": {
         "i18n": {
@@ -67,19 +55,17 @@
       "type": "string",
       "regex": "^(https?:\\/\\/.+\\..+|\\.?\\/|#)"
     },
-    "excerpt": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "text"
-    },
     "programmes": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::programme.programme",
       "inversedBy": "newsMentions"
+    },
+    "focus_areas": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::focus-area.focus-area",
+      "inversedBy": "news_mentions"
     }
   }
 }

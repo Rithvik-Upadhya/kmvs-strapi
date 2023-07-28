@@ -38,7 +38,7 @@
         }
       }
     },
-    "designation": {
+    "role": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -46,7 +46,7 @@
       },
       "type": "string"
     },
-    "department": {
+    "project": {
       "pluginOptions": {
         "i18n": {
           "localized": true

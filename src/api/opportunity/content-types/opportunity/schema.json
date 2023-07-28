@@ -4,7 +4,7 @@
   "info": {
     "singularName": "opportunity",
     "pluralName": "opportunities",
-    "displayName": "Opportunities",
+    "displayName": "Work With Us",
     "description": ""
   },
   "options": {
@@ -33,10 +33,9 @@
       },
       "type": "enumeration",
       "enum": [
-        "job",
+        "consultancy",
         "internship",
-        "fellowship",
-        "workshop"
+        "fellowship"
       ],
       "required": true
     },
@@ -69,18 +68,27 @@
       },
       "customField": "plugin::ckeditor5.CKEditor"
     },
-    "attachment": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "files"
-      ],
+    "button": {
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
-      }
+      },
+      "component": "global.button",
+      "max": 1
+    },
+    "attachments": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "global.attachment",
+      "max": 2
     }
   }
 }
