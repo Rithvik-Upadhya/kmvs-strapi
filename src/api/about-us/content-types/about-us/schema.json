@@ -38,6 +38,16 @@
         }
       },
       "component": "global.section"
+    },
+    "timeline": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "global.milestone"
     }
   }
 }
