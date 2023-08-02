@@ -25,29 +25,25 @@
       "type": "string",
       "required": true
     },
-    "content": {
+    "sections": {
+      "type": "component",
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "customField",
-      "options": {
-        "preset": "custom"
-      },
-      "customField": "plugin::ckeditor5.CKEditor"
+      "component": "global.section"
     },
-    "featuredImage": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
+    "timeline": {
+      "type": "component",
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "global.milestone"
     }
   }
 }
