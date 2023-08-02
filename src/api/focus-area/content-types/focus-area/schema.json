@@ -86,6 +86,16 @@
       "relation": "manyToMany",
       "target": "api::news-mention.news-mention",
       "mappedBy": "focus_areas"
+    },
+    "timeline": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "global.milestone"
     }
   }
 }
