@@ -19,7 +19,8 @@
         "patch-package": "^7.0.0",
         "pg": "^8.11.0",
         "postinstall-postinstall": "^2.1.0",
-        "strapi-plugin-netlify-deployments": "^2.0.0"
+        "strapi-plugin-netlify-deployments": "^2.0.0",
+        "strapi-plugin-plausible": "^1.0.6"
     },
     "author": {
         "name": "Rithvik Upadhya"
