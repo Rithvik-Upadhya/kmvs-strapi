@@ -66,6 +66,14 @@
       "relation": "manyToMany",
       "target": "api::focus-area.focus-area",
       "inversedBy": "news_mentions"
+    },
+    "date": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "date"
     }
   }
 }

@@ -18,7 +18,7 @@
       "required": true,
       "unique": false
     },
-    "tagline": {
+    "seoTagline": {
       "type": "string",
       "required": true,
       "maxLength": 100
@@ -29,11 +29,14 @@
       "repeatable": true,
       "component": "global.social"
     },
-    "contact": {
-      "displayName": "contact",
-      "type": "component",
-      "repeatable": false,
-      "component": "global.contact"
+    "email": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "text"
+    },
+    "address": {
+      "type": "text"
     }
   }
 }

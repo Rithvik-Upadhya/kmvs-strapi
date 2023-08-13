@@ -2,23 +2,22 @@
   "collectionName": "components_global_contacts",
   "info": {
     "displayName": "contact",
-    "icon": "attachment",
-    "description": ""
+    "icon": "phone"
   },
   "options": {},
   "attributes": {
-    "email": {
-      "type": "email"
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "phone",
+        "email",
+        "address"
+      ],
+      "required": true
     },
-    "phone": {
-      "type": "string"
-    },
-    "address": {
-      "type": "customField",
-      "options": {
-        "preset": "custom"
-      },
-      "customField": "plugin::ckeditor5.CKEditor"
+    "details": {
+      "type": "text",
+      "required": true
     }
   }
 }
