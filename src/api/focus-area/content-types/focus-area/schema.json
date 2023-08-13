@@ -22,7 +22,7 @@
       "target": "api::programme.programme",
       "inversedBy": "focusAreas"
     },
-    "name": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
