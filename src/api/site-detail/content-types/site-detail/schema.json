@@ -29,14 +29,10 @@
       "repeatable": true,
       "component": "global.social"
     },
-    "email": {
-      "type": "text"
-    },
-    "phone": {
-      "type": "text"
-    },
-    "address": {
-      "type": "text"
+    "contactDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.contact"
     }
   }
 }

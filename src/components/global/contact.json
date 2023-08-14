@@ -2,7 +2,8 @@
   "collectionName": "components_global_contacts",
   "info": {
     "displayName": "contact",
-    "icon": "phone"
+    "icon": "phone",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,8 +16,8 @@
       ],
       "required": true
     },
-    "details": {
-      "type": "text",
+    "detail": {
+      "type": "string",
       "required": true
     }
   }
