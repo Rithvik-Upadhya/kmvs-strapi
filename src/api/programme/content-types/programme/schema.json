@@ -60,54 +60,6 @@
         }
       }
     },
-    "vision": {
-      "type": "customField",
-      "options": {
-        "preset": "custom"
-      },
-      "customField": "plugin::ckeditor5.CKEditor",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "coreApproaches": {
-      "type": "customField",
-      "options": {
-        "preset": "custom"
-      },
-      "customField": "plugin::ckeditor5.CKEditor",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "activities": {
-      "type": "customField",
-      "options": {
-        "preset": "custom"
-      },
-      "customField": "plugin::ckeditor5.CKEditor",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "impact": {
-      "type": "customField",
-      "options": {
-        "preset": "custom"
-      },
-      "customField": "plugin::ckeditor5.CKEditor",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "focusAreas": {
       "type": "relation",
       "relation": "manyToMany",
@@ -138,6 +90,16 @@
       "relation": "manyToMany",
       "target": "api::news-mention.news-mention",
       "mappedBy": "programmes"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "global.section"
     }
   }
 }
