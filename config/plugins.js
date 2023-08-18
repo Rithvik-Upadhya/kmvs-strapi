@@ -13,7 +13,10 @@ module.exports = ({ env }) => ({
   },
   upload: {
     config: {
-      sizeLimit: 250 * 1024 * 1024, // 256mb in bytes
+      providerOptions: {
+        sizeLimit: 100 * 1024 * 1024,
+        localServer: {},
+      },
     },
   },
   "netlify-deployments": {
